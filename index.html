@@ -4,31 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WeLose.com - Home</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
     <header>
-        <h1>WeLose.com</h1>
+        <h1>We Lose</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="forum.html">Forum</a></li>
-                <li><a href="account.html">My Account</a></li>
+                <li><a href="forum.html">Groups</a></li>
+                <li><a href="account.html">Account</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section>
-            <h2>Welcome to WeLose.com</h2>
-            <p>Your journey to a healthier life starts here.</p>
+        <section class="account-info">
+            <h2>My Account Info</h2>
+            <p>Account Name Here</p>
+            <p>Current Weight: XXX</p>
+            <p>Target Weight: XXX</p>
+            <p>Feeling: Tired</p>
         </section>
-        <section>
-            <h2>Join a Community</h2>
-            <p>Connect with others, share your progress, and stay motivated.</p>
+        <section class="posts">
+            <h2>Public Posts</h2>
+            <div class="post">
+                <p>I feel pretty good today. Going to keep pushing!</p>
+                <div class="actions">
+                    <button>👍</button>
+                    <button>💬</button>
+                </div>
+            </div>
+            <div class="post">
+                <p>Input photo here</p>
+            </div>
+            <div class="post">
+                <p>New weight loss achievement!</p>
+                <div class="actions">
+                    <button>👍</button>
+                    <button>💬</button>
+                </div>
+            </div>
+        </section>
+        <section class="trending-groups">
+            <h2>Trending Groups</h2>
+            <p>Run Club <span>👤 121</span></p>
+            <p>Gym Rats <span>👤 73</span></p>
         </section>
     </main>
     <footer>
         <p>&copy; 2024 WeLose.com</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
